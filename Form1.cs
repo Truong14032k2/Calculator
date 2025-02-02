@@ -48,7 +48,10 @@ namespace Calculator
 
         private void BtnCong_Click(object sender, EventArgs e)
         {
-            
+            double a = double.Parse(txtA.Text);
+            double b = double.Parse(txtB.Text);
+            double c = a + b;
+            txtKetQua.Text = c.ToString();
         }
 
        
